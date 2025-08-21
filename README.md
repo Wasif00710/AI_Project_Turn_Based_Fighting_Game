@@ -1,4 +1,32 @@
 # 🎮 AI Project: Turn-Based Fighting Game  
+# 📸 Project Screenshots  
+
+Here are some snapshots of the project in action:  
+
+---
+
+## 🌟 Preview Gallery  
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="Photos/1.png" alt="Screenshot 1" width="300" style="border-radius:15px; box-shadow:0 4px 10px rgba(0,0,0,0.3);"/>  
+      <br/>✨ **Dashboard View**
+    </td>
+    <td align="center">
+      <img src="Photos/2.png" alt="Screenshot 2" width="300" style="border-radius:15px; box-shadow:0 4px 10px rgba(0,0,0,0.3);"/>  
+      <br/>⚡ **Analytics Page**
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <img src="Photos/3.png" alt="Screenshot 3" width="500" style="border-radius:15px; box-shadow:0 4px 10px rgba(0,0,0,0.3);"/>  
+      <br/>🌈 **Full Preview**
+    </td>
+  </tr>
+</table>
+
+---
 
 <p align="center">
   <img src="https://img.shields.io/badge/Engine-Unity-000000?logo=unity" />
