@@ -108,11 +108,18 @@ This project is licensed under the MIT License – see LICENSE
 
 ## 🎨 Decorative Flow  
 
-```mermaid
-flowchart LR
-   A[📷 Screenshots] --> B(✨ Dashboard)
-   A --> C(⚡ Analytics)
-   A --> D(🌈 Full Preview)
+flowchart TD
+    A["📂 Photos Folder"]:::folder --> B["🖼️ 1.png"]:::img
+    A --> C["🖼️ 2.png"]:::img
+    A --> D["🖼️ 3.png"]:::img
 
+    subgraph Showcase["✨ Screenshot Showcase ✨"]
+        direction TB
+        B --> C --> D
+    end
+
+    style Showcase fill=#f5f7ff,stroke=#6b5b95,stroke-width=2px,rx=15,ry=15
+    classDef folder fill=#ffe8cc,stroke=#ff8c42,stroke-width=2px,color=#4d2800,font-weight=bold,rx=10,ry=10
+    classDef img fill=#e3f2fd,stroke=#1e88e5,stroke-width=2px,color=#0d47a1,font-weight=bold,rx=10,ry=10
 
 
