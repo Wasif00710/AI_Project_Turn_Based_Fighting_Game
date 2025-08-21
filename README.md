@@ -106,13 +106,13 @@ Open a Pull Request
 This project is licensed under the MIT License – see LICENSE
  for details.
 
+## 🎨 Decorative Flow  
+
 ```mermaid
-flowchart TD
-    A[Player Turn] -->|Choose Attack/Defend| B[AI Turn]
-    B -->|AI Decision (Reinforcement Learning)| C[Battle Outcome]
-    C -->|Check HP| D{Game Over?}
-    D -->|No| A
-    D -->|Yes| E[Winner Declared 🎉]
+flowchart LR
+   A[📷 Screenshots] --> B(✨ Dashboard)
+   A --> C(⚡ Analytics)
+   A --> D(🌈 Full Preview)
 
 
 
